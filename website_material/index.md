@@ -9,9 +9,12 @@ for_codes:
   - 370401
 status:
   - completed
-doi: ''
+doi: https://doi.org/10.25914/xy60-b940
 url: https://mate.science//models/RodriguezCorcho-2022-ArcCollision
-creditText: ''
+creditText: Rodríguez Corcho, A., Polanco, S., Farrington, R., Beucher, R., Montes,
+  C., & Moresi, L. (2024). The Role of Lithospheric-Deep Mantle Interactions on the
+  Style and Stress Evolution of Arc-Continent Collision [Data set]. AuScope, National
+  Computational Infrastructure. https://doi.org/xy60-b940
 software:
   - name: Underworld2
     doi: https://zenodo.org/records/3996738
