@@ -14,11 +14,11 @@ url: https://mate.science//models/RodriguezCorcho-2022-ArcCollision
 creditText: Rodríguez Corcho, A., Polanco, S., Farrington, R., Beucher, R., Montes,
   C., & Moresi, L. (2024). The Role of Lithospheric-Deep Mantle Interactions on the
   Style and Stress Evolution of Arc-Continent Collision [Data set]. AuScope, National
-  Computational Infrastructure. https://doi.org/xy60-b940
+  Computational Infrastructure. https://doi.org/10.25914/xy60-b940
 software:
-  - name: Underworld2
-    doi: https://zenodo.org/records/3996738
-    url_source: https://github.com/underworldcode/UWGeodynamics
+  name: Underworld2
+  doi: https://zenodo.org/records/3996738
+  url_source: https://github.com/underworldcode/UWGeodynamics
 licence:
   licence_url: https://creativecommons.org/licenses/by/4.0/legalcode
   licence_image: ../../../img/licence/by.png
@@ -48,68 +48,30 @@ creators:
     family_name: Moresi
     ORCID: 0000-0003-3685-174X
 associated_publication:
-  authors:
-    - '@type': Person
-      '@id': http://orcid.org/0000-0002-1521-7910
-      givenName: Andrés Felipe
-      familyName: Rodríguez Corcho
-      affiliation:
-        - '@type': Organization
-          name: School of Geography, Earth and Atmospheric Sciences University of
-            Melbourne  Melbourne VIC Australia
-        - '@type': Organization
-          name: School of Geosciences University of Sydney  Sydney NSW Australia
-    - '@type': Person
-      '@id': http://orcid.org/0000-0002-1270-4377
-      givenName: Sara
-      familyName: Polanco
-      affiliation:
-        - '@type': Organization
-          name: School of Geosciences University of Sydney  Sydney NSW Australia
-    - '@type': Person
-      '@id': http://orcid.org/0000-0002-2594-6965
-      givenName: Rebecca
-      familyName: Farrington
-      affiliation:
-        - '@type': Organization
-          name: School of Geography, Earth and Atmospheric Sciences University of
-            Melbourne  Melbourne VIC Australia
-    - '@type': Person
-      '@id': http://orcid.org/0000-0003-3891-5444
-      givenName: Romain
-      familyName: Beucher
-      affiliation:
-        - '@type': Organization
-          name: Research School of Earth Sciences Australian National University  Canberra
-            ACT Australia
-    - '@type': Person
-      '@id': http://orcid.org/0000-0002-3553-0787
-      givenName: Camilo
-      familyName: Montes
-      affiliation:
-        - '@type': Organization
-          name: Department of Physics and Geosciences Universidad del Norte  Barranquilla
-            Colombia
-    - '@type': Person
-      '@id': http://orcid.org/0000-0003-3685-174X
-      givenName: Louis
-      familyName: Moresi
-      affiliation:
-        - '@type': Organization
-          name: Research School of Earth Sciences Australian National University  Canberra
-            ACT Australia
-  title: The Role of Lithospheric‐Deep Mantle Interactions on the Style and Stress
-    Evolution of Arc‐Continent Collision
-  doi: http://dx.doi.org/10.1029/2022gc010386
-  url: ''
-  journal: Geochemistry, Geophysics, Geosystems
+  title: The Role of Lithospheric‐Deep Mantle Interactions on the Style and Stress Evolution of Arc‐Continent Collision
+  url: http://dx.doi.org/10.1029/2022gc010386
+  doi: 10.1029/2022gc010386
   publisher: American Geophysical Union (AGU)
+  journal: Geochemistry, Geophysics, Geosystems
   date: 2022-11
+  authors:
+    - name: Andrés Felipe
+      family_name: Rodríguez Corcho
+    - name: Sara
+      family_name: Polanco
+    - name: Rebecca
+      family_name: Farrington
+    - name: Romain
+      family_name: Beucher
+    - name: Camilo
+      family_name: Montes
+    - name: Louis
+      family_name: Moresi
 compute_info:
-  name: ''
-  organisation: ''
-  url: ''
-  doi: ''
+  name:
+  organisation:
+  url:
+  doi:
 research_tags:
   - buoyancy contrast
   - gravitational collapse
@@ -123,48 +85,31 @@ compute_tags:
   - Particle-in-cell
 funder:
   - name: Australian Research Council's ITRH Project
-    doi: ''
+    doi:
   - name: Colombian Government PhD Scholarship
-    doi: ''
+    doi:
   - name: Colombian Association of Petroleum Geologists and Geophysicists
-    doi: ''
+    doi:
   - name: Auscope
-    doi: ''
+    doi:
   - name: Nectar Research Cloud
-    doi: ''
+    doi:
   - name: National Computational Infrastructure
-    doi: ''
+    doi:
 funding:
   - name: Australian Research Council's ITRH Project
-    doi: ''
+    doi:
     number_id: IH130200012 and DP150102887
   - name: Colombian Government PhD Scholarship
-    doi: ''
+    doi:
     number_id: '783'
   - name: Colombian Association of Petroleum Geologists and Geophysicists
-    doi: ''
+    doi:
     number_id: Corrigan grant 2019
   - name: National Computational Infrastructure
-    doi: ''
+    doi:
     number_id: projects m18 and mw52
-abstract: We investigate how the mechanical properties of intra-oceanic arcs affect
-  the collision style and associated stress-strain evolution with buoyancy-driven
-  models of subduction that accurately reproduce the dynamic interaction of the lithosphere
-  and mantle. We performed a series of simulations only varying the effective arc
-  thickness as it controls the buoyancy of intra-oceanic arcs. Our simulations spontaneously
-  evolve into two contrasting styles of collision that are controlled by a 3% density
-  contrast between the arc and the continental plate. In simulations with less buoyant
-  arcs (15–31 km; effective thickness), we observe arc-transference to the overriding
-  plate and slab-anchoring and folding at the 660 km transition zone that result in
-  fluctuations in the slab dip, strain-stress regime, surface kinematics, and viscous
-  dissipation. After slab-folding occurs, the gravitational potential energy is dissipated
-  in the form of lithospheric flow causing lithospheric extension in the overriding
-  plate. Conversely, simulations with more buoyant arcs (32–35 km; effective thickness)
-  do not lead to arc-transference and result in slab break-off, which causes an asymptotic
-  trend in surface kinematics, viscous dissipation and strain-stress regime, and lithospheric
-  extension in the overriding plate. The results of our numerical modeling highlight
-  the importance of slab-anchoring and folding in the 660 km transition zone on increasing
-  the mechanical coupling of the subduction system.
+abstract: We investigate how the mechanical properties of intra-oceanic arcs affect the collision style and associated stress-strain evolution with buoyancy-driven models of subduction that accurately reproduce the dynamic interaction of the lithosphere and mantle. We performed a series of simulations only varying the effective arc thickness as it controls the buoyancy of intra-oceanic arcs. Our simulations spontaneously evolve into two contrasting styles of collision that are controlled by a 3% density contrast between the arc and the continental plate. In simulations with less buoyant arcs (15–31 km; effective thickness), we observe arc-transference to the overriding plate and slab-anchoring and folding at the 660 km transition zone that result in fluctuations in the slab dip, strain-stress regime, surface kinematics, and viscous dissipation. After slab-folding occurs, the gravitational potential energy is dissipated in the form of lithospheric flow causing lithospheric extension in the overriding plate. Conversely, simulations with more buoyant arcs (32–35 km; effective thickness) do not lead to arc-transference and result in slab break-off, which causes an asymptotic trend in surface kinematics, viscous dissipation and strain-stress regime, and lithospheric extension in the overriding plate. The results of our numerical modeling highlight the importance of slab-anchoring and folding in the 660 km transition zone on increasing the mechanical coupling of the subduction system.
 description: The model is designed to investigate the role of buoyancy contrasts in
   determining the style of arc-continent collision and the stress and strain evolution
   in the continental plate
@@ -182,13 +127,13 @@ images:
       than 3% results in slab break-off and failed arc transference.
   model_setup:
     src: ./graphics/model_setup.jpg
-    caption: ''
+    caption:
 animation:
-  src: ./graphics/animation
+  src: ./graphics/animation.mp4
   caption: "Evolution of less buoyant arc-continent collision. This style of collision
     results in arc transference to the continental overriding plate.\n"
 model_setup_info:
-  url: ''
+  url:
   summary: 'The model develops in a cartesian domain 3600 km in length (in the horizontal
     direction) and 800 km in depth. It includes an oceanic subducting plate (dark
     yellow), an overriding plate composed by a continental (cyan) and cratonic domain
@@ -214,21 +159,21 @@ model_setup_info:
     crust, the middle-lower arc crust can be considered as a free parameter as implemented
     in Leng & Gurnis [2015].'
 model_files:
-  url: ''
+  url:
   notes: The model is set up using a python script and uses the Underworld 2 geodynamic
     code. In the GitHub repo, the original script used to run the model is available,
     and also the script used for post-processing.
-  file_tree: ''
+  file_tree:
   existing_identifier: https://github.com/andresrcorcho/Dynamics-of-Arc-Continent-Collision
-  nci_file_path: 
+  nci_file_path:
     https://thredds.nci.org.au/thredds/catalog/nm08/MATE/RodriguezCorcho-2022-ArcCollision/catalog.html
   include: true
 dataset:
-  url: ''
+  url:
   notes: The output consists of xdmf and h5 files. There is one xdmf file per time
     step (every 0.5 Myr) and a set of h5 files that contain the distinct model properties.
-  existing_identifier: ''
-  nci_file_path: 
+  existing_identifier:
+  nci_file_path:
     https://thredds.nci.org.au/thredds/catalog/nm08/MATE/RodriguezCorcho-2022-ArcCollision/catalog.html
   include: true
 metadataFile: ro-crate-metadata.json
